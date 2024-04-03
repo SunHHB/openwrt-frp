@@ -76,24 +76,24 @@ jobs:
         #   - arch: mips64_octeonplus
         #    sdk_url_path: https://downloads.openwrt.org/snapshots/targets/octeon/generic
         #   sdk_name: -sdk-octeon_
-          - arch: mipsel_24kc
-            sdk_url_path: https://downloads.openwrt.org/snapshots/targets/ramips/mt7620
-            sdk_name: -sdk-ramips-mt7620_
-          - arch: mipsel_24kc_24kf
-            sdk_url_path: https://downloads.openwrt.org/snapshots/targets/pistachio/generic
-            sdk_name: -sdk-pistachio_
-          - arch: mipsel_74kc
-            sdk_url_path: https://downloads.openwrt.org/snapshots/targets/bcm47xx/mips74k
-            sdk_name: -sdk-bcm47xx-mips74k_
-          - arch: mipsel_mips32
-            sdk_url_path: https://downloads.openwrt.org/snapshots/targets/bcm47xx/generic
-            sdk_name: -sdk-bcm47xx-generic_
-          - arch: mips_24kc
-            sdk_url_path: https://downloads.openwrt.org/snapshots/targets/ath79/generic
-            sdk_name: -sdk-ath79-generic_
-          - arch: mips_mips32
-            sdk_url_path: https://downloads.openwrt.org/snapshots/targets/bcm63xx/generic
-            sdk_name: -sdk-bcm63xx-generic_
+        #  - arch: mipsel_24kc
+        #    sdk_url_path: https://downloads.openwrt.org/snapshots/targets/ramips/mt7620
+        #    sdk_name: -sdk-ramips-mt7620_
+        #  - arch: mipsel_24kc_24kf
+        #    sdk_url_path: https://downloads.openwrt.org/snapshots/targets/pistachio/generic
+        #    sdk_name: -sdk-pistachio_
+        #  - arch: mipsel_74kc
+        #     sdk_url_path: https://downloads.openwrt.org/snapshots/targets/bcm47xx/mips74k
+        #    sdk_name: -sdk-bcm47xx-mips74k_
+        #  - arch: mipsel_mips32
+        #    sdk_url_path: https://downloads.openwrt.org/snapshots/targets/bcm47xx/generic
+        #    sdk_name: -sdk-bcm47xx-generic_
+        #  - arch: mips_24kc
+        #    sdk_url_path: https://downloads.openwrt.org/snapshots/targets/ath79/generic
+        #    sdk_name: -sdk-ath79-generic_
+        #  - arch: mips_mips32
+        #    sdk_url_path: https://downloads.openwrt.org/snapshots/targets/bcm63xx/generic
+        #   sdk_name: -sdk-bcm63xx-generic_
           - arch: x86_64
             sdk_url_path: https://downloads.openwrt.org/snapshots/targets/x86/64
             sdk_name: -sdk-x86-64_
